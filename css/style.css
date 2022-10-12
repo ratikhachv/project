@@ -1,4 +1,4 @@
-/* make it more responsive */
+/* make it more responsive  icluding fontSize*/
 .container{
     max-width: 1920px;
     width: 100%;
@@ -33,12 +33,12 @@
     width:26px;
     height:11px;
 }
-nav{
+.side-nav nav{
     width: 81%;
     margin: 0 auto;
     height: 31%;
 }
-ul{
+.side-nav ul{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -46,14 +46,14 @@ ul{
     color: aliceblue;
     width: 100%;
 }
-li{
+.side-nav li{
     display: flex;
     gap: 15px;
     align-items: center;
     margin-left: 11.5%;
     flex-wrap: wrap;
 }
-li:hover{
+.side-nav li:hover{
     margin-left: 0;
     padding-top: 5.6%;
     padding-bottom: 5.6%;
@@ -136,8 +136,66 @@ header{
     border-radius: 20px;
 }
 .first-sect-body{
+    /* shecvladi */
     width: 83%;
-    margin: 0 auto;
+    margin:40px auto;
+    height: 820px;
+    background-color: cyan;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first-sect-top{
+    width: 100%;
+    height: 6.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.first-sect-top nav{
+    width: 60%;
+}
+.first-sect-top ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    border:lightgray 1px solid;
+    border-radius: 10px;
+}
+.filter button{
+    background: none;
+    border: none;
+}
+.first-sect li:hover{
+    padding: 18px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+}
+.first-sect-mid{
+    width: 100%;
+    height: 73%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.first-sect-mid div{
+    width: 23.4%;
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-sect-body button{
+
 }
 
 
