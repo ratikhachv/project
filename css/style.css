@@ -93,17 +93,52 @@ header{
     margin-left: 1.5%;
     /* shecvladi */
     height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+/* gadaxedvadia */
 .search-bar{
     height: 48%;
     width: 30%;
+    background-color:#F8F8F8;
+    border: #F8F8F8 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .search{
    padding: 20px;
    border: none;
+   border-radius: 20px;
    background-color: #F8F8F8;
 }
-
+.search-bar button{
+    border: none;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.user-info{
+    display: flex;
+    width: 28%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-info button{
+    border: none;
+    background-color: white;
+}
+.user-info button:hover{
+    padding:9% 15.5%;
+    background-color: #FF2288;
+    border: 1px #FF2288 solid;
+    border-radius: 20px;
+}
+.first-sect-body{
+    width: 83%;
+    margin: 0 auto;
+}
 
 
 
