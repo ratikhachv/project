@@ -18,7 +18,9 @@
     /* shecvladia */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 9.5%;
+    padding-top: 3%;
 }
 /* shecvladia simagle */
 .top-part{
@@ -70,7 +72,7 @@
     display: flex;
     color: aliceblue;
     flex-direction: column;
-    height: 33%;
+    height: 41%;
     justify-content: space-between;
     width: 81%;
     margin-left: 18.8%;
@@ -80,13 +82,12 @@
     flex-direction: column;
     justify-content: space-between;
     height: 87.5%;
-    
 }
 .account-list div{
     display: flex;
     align-items:center;
     /* shecvladia */
-    gap: 20px;
+    gap: 5%;
     flex-wrap: wrap;
 }
 .first-sect{
@@ -246,6 +247,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.address{
+    font-size: smaller;
+    color:#222222;
+    opacity: 0.6;
+}
 .designer-info img{
     height: 36%;
     width: 100%;
@@ -356,6 +362,9 @@ tr:not(#top-row):hover{
     }
     .account-list div{
         gap: 3%;
+    }
+    .account-list span{
+        font-size: smaller;
     }
     .account-list{
         gap: 10px;
