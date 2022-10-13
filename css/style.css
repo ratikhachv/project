@@ -351,6 +351,9 @@ tr:not(#top-row):hover{
     .side-nav li{
         gap: 5%;
     }
+    .side-nav a{
+        gap: 5%;
+    }
     .account-list div{
         gap: 3%;
     }
@@ -384,6 +387,12 @@ tr:not(#top-row):hover{
     }
     footer p{
         font-size: x-small;
+    }
+    table td{
+        font-size: x-small;
+    }
+    table th{
+        font-size: smaller;
     }
 }
 
