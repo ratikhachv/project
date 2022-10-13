@@ -341,6 +341,7 @@ tr:not(#top-row):hover{
     #filter{
         width:max-content;
         flex-wrap: wrap;
+        height: max-content;
     }
     .side-nav{
         padding-top: 5%;
@@ -371,6 +372,9 @@ tr:not(#top-row):hover{
     }
     .top-part{
         justify-content: center;
+    }
+    .first-sect-mid {
+        font-size:x-small
     }
     .second-sect{
         width: 100%;
@@ -403,6 +407,14 @@ tr:not(#top-row):hover{
     table th{
         font-size: smaller;
     }
+    footer h4{
+        font-size: small;
+    }
+    footer{
+        margin: 20% auto;
+        width: 70%;
+    }
+
 }
 
 /* @media (max-width: 1024px){
