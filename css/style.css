@@ -249,7 +249,8 @@ header{
 .second-sect{
     width: 83.4%;
     /* shecvladi */
-    height:500px;
+    max-height:500px;
+    height: 26.5vw;
     padding: 3% 9.5% ;
     display: flex;
     margin-left:16.6%;;
@@ -297,9 +298,11 @@ header{
     border: lightgray solid 1px;
     border-radius: 15px;
     background-color: none;
-    font-size: 0.78vw;
+    font-size: 0.88vw;
     max-width: 132px;
     width: 6.8vw;
+    height: 2.2vw;
+    min-height: fit-content;
     min-width: fit-content;
 }
 .top-designers button:hover{
