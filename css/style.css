@@ -275,12 +275,12 @@ header{
     align-items: center;
 }
 .designer-info img{
-    max-width: 10.7vw;
-    height: 10.7vw;
+    max-width: 6.8vw;
+    height: 6.8vw;
     max-height: 6vh;
 }
 .designer-info div p{
-    font-size: 1vw;
+    font-size: 1.5vmin
 }
 .address{
     font-size: smaller;
@@ -296,6 +296,10 @@ header{
     border: lightgray solid 1px;
     border-radius: 15px;
     background-color: none;
+    font-size: clamp(0.3vw, 14px);
+    max-width: 132px;
+    width: 6.8vw;
+    min-width: fit-content;
 }
 .top-designers button:hover{
     background-color: #F2F2F2;
